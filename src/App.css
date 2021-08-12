@@ -1,0 +1,28 @@
+body {
+  background-color: #000000;
+  background-image: url(img.jpg);
+  background-size: cover;
+  height: 100px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+button{
+  width: 100%;
+}
